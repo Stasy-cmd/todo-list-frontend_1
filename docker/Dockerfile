@@ -17,4 +17,4 @@ FROM nginx:alpine
 
 COPY --from=frontend_builder /code/dist/ /usr/share/nginx/html
 ADD docker/nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80 80
+EXPOSE 81 81
